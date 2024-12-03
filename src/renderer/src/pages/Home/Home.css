@@ -1,0 +1,51 @@
+.home {
+  background-color: var(--bright-color);
+  height: 90vh;
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  position: relative;
+}
+.home .circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 10px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: growCircle 2s ease forwards;
+  overflow: hidden;
+  position: relative;
+}
+.home .logo {
+  opacity: 0;
+  animation: fadeInLogo 1s ease 1.5s forwards;
+  width: 80%;
+}
+.home .uploadBtn {
+  background-color: var(--dark-color);
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+}
+@keyframes growCircle {
+  0% {
+    width: 0;
+    height: 0;
+  }
+  100% {
+    width: 300px;
+    height: 300px;
+  }
+}
+@keyframes fadeInLogo {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

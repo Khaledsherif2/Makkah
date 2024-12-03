@@ -1,0 +1,79 @@
+.customers .search-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem 0;
+}
+.customers .search-bar input[type='text'] {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  font-size: 16px;
+}
+.customers .search-bar button {
+  background-color: var(--medium-color);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.customers .search-bar button:hover {
+  background-color: var(--light-color);
+}
+.customers .table thead th {
+  background-color: var(--medium-color);
+  color: #fff;
+  text-align: center;
+}
+.customers .table tbody td {
+  vertical-align: middle;
+  text-align: center;
+}
+.customers .table tbody tr.done td {
+  background-color: var(--light-color);
+  color: white;
+}
+.customers .table tbody .btn {
+  margin-right: 0.5rem;
+}
+.customer-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.customer-header {
+  display: flex;
+  font-weight: bold;
+  background-color: #f1f1f1;
+  padding: 10px 0;
+}
+
+.customer-column {
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+  border-bottom: 2px solid #ddd;
+}
+
+.customer-row {
+  display: flex;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.customer-row:hover {
+  background-color: #f9f9f9;
+}
+
+.customer-column {
+  flex: 1;
+  text-align: center;
+}
+
+.customer-actions {
+  display: flex;
+  justify-content: space-around;
+}

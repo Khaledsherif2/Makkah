@@ -1,0 +1,30 @@
+.navbar {
+  background-color: var(--light-color);
+  z-index: 1;
+}
+.navbar .container-fluid {
+  gap: 2rem;
+}
+.navbar .logo {
+  flex: 0.1;
+}
+.navbar img {
+  width: 100%;
+}
+.navbar .collapse {
+  flex: 2;
+}
+.navbar .navbar-toggler {
+  box-shadow: unset;
+  border: 1px solid white;
+}
+.navbar-nav {
+  gap: 1rem;
+}
+.navbar .nav-link {
+  color: white;
+  font-size: 1.5rem;
+}
+.navbar .nav-link.active {
+  color: var(--dark-color);
+}

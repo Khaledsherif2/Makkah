@@ -1,0 +1,40 @@
+.finances {
+  background-color: var(--very-light-color);
+}
+.finances .btn {
+  margin: 2rem 0;
+  background-color: var(--medium-color);
+  color: white;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+.finances .btn:hover {
+  background-color: var(--bright-color);
+}
+.finances table:first-of-type {
+  flex: 2;
+}
+.finances table:last-of-type {
+  flex: 1;
+}
+.finances table {
+  margin-top: 0.5rem;
+  width: 100%;
+  height: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.finances thead th {
+  background-color: var(--medium-color);
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+.finances thead tr:last-of-type th {
+  background-color: var(--light-color);
+}
+.finances tbody td {
+  padding: 8px;
+  text-align: center;
+}

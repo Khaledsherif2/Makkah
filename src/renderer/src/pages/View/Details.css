@@ -1,0 +1,27 @@
+.details {
+  height: 88vh;
+  display: grid;
+  place-items: center;
+  background-color: #97dcff;
+}
+.details .row .col label {
+  font-size: 1.3rem;
+  margin-bottom: 0.25rem;
+}
+.details form .row .col .form-control:not(button) {
+  background-color: var(--very-light-color);
+}
+.details form .row .col input:read-only {
+  user-select: none;
+  cursor: default;
+}
+.details form .row .col button.form-control {
+  font-size: 1.3rem;
+}
+.details form .row .col .edit {
+  background-color: var(--medium-color);
+  color: white;
+}
+.swal2-html-container .table {
+  border: 1px solid black;
+}

@@ -1,0 +1,29 @@
+.addCustomer {
+  height: 88vh;
+  display: grid;
+  place-items: center;
+  background-color: var(--very-light-color);
+}
+.addCustomer form .row .col .form-control::placeholder {
+  font-size: 1.25rem;
+}
+.addCustomer form .row .col .form-control.btn {
+  background-color: var(--medium-color);
+  color: white;
+}
+.swal2-popup {
+  width: 45em;
+}
+.input-container {
+  display: flex;
+  gap: 1rem;
+  padding-bottom: 1rem;
+}
+.swal2-input {
+  margin: 0%;
+  width: calc((100% / 6) - 16px);
+  border: 1px solid black;
+}
+.blanket .swal2-input {
+  width: calc((100% / 3) - 16px);
+}
